@@ -1,0 +1,25 @@
+@import 'styles/Config.css';
+@import 'styles/Mixins.css';
+
+.Count {
+
+}
+
+.Count-Actions {
+    border: 1px solid #aaa;
+    padding: 10px;
+    text-align: center;
+}
+
+.Count-Action {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.Count-Value {
+    border: 1px solid #aaa;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 100px;
+    text-align: center;
+}
