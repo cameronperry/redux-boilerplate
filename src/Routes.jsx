@@ -4,7 +4,7 @@ import App from './components/App';
 import {CountContainer} from './components/Count/Count';
 
 export default (
-    <Route component={App}>
-        <Route path="/" component={CountContainer} />
-    </Route>
+  <Route component={App}>
+    <Route path='/' component={CountContainer}/>
+  </Route>
 );

@@ -1,30 +1,30 @@
 export function setState(state) {
-    return {
-        type: 'SET_STATE',
-        state
-    };
+  return {
+    type: 'SET_STATE',
+    state
+  };
 }
 
 export function increment() {
-    return {
-        type: 'INCREMENT'
-    };
+  return {
+    type: 'INCREMENT'
+  };
 }
 
 export function decrement() {
-    return {
-        type: 'DECREMENT'
-    };
+  return {
+    type: 'DECREMENT'
+  };
 }
 
 export function multiply() {
-    return {
-        type: 'MULTIPLY'
-    };
+  return {
+    type: 'MULTIPLY'
+  };
 }
 
 export function divide() {
-    return {
-        type: 'DIVIDE'
-    };
+  return {
+    type: 'DIVIDE'
+  };
 }
